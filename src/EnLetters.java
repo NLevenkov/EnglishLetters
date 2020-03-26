@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+//upl
 public class EnLetters {
 
     public static int enLettersCount(ArrayList<Character> list) {
@@ -32,10 +32,10 @@ public class EnLetters {
         reader.close();
         ArrayList<Character> letters = new ArrayList<>();
 
-        while (fis.available() > 0) {
+        while (fis.available() > 0) {   //filling list with symbols from file
             letters.add((char) fis.read());
         }
-        
+
         fis.close();
         System.out.println(enLettersCount(letters));
     }
