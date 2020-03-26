@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 //upl
+
+//checking github
 public class EnLetters {
 
     public static int enLettersCount(ArrayList<Character> list) {
@@ -20,7 +22,6 @@ public class EnLetters {
         }
         return count;
     }
-
     public static void main(String[] args) throws IOException {
 
         String fileName = "C:\\JavaRushTasks\\est.txt"; // fileName here
