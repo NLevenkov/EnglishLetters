@@ -1,0 +1,1 @@
+This program counts english letters in String from console.
